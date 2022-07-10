@@ -10,7 +10,7 @@ Description: 'AWS CloudFormation template shows how to associate an Elastic IP a
   You will be billed for the AWS resources used if you create a stack from this template.'
 Parameters:
   InstanceType:
-    Description: WebServer EC2 instance type
+    Description: EC2 instance type
     Type: String
     Default: t3.small
     AllowedValues: [t3.nano, t3.micro, t3.small, t3.medium, t3.large, t3.xlarge, t3.2xlarge,
